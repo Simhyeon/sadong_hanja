@@ -1,0 +1,14 @@
+{
+    "name": "sadong-hanja",
+    "version": "1.0.0",
+    "keywords": [],
+    "description": "hanja",
+    "main": "index.html",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Simhyeon",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {}
+  }
