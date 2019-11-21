@@ -1,7 +1,13 @@
 html { 
-    font-size: 2em;
     color: #373d3f;
     background-color: #fafcf8;
+}
+body {
+    font-size: 16px;
+}
+
+div{
+    font-size: 100%;
 }
 
 .hangul {
@@ -17,7 +23,7 @@ html {
     bottom: 5px;
     right: 5px;
     z-index: 99;
-    font-size: 12px;
+    font-size: 100%;
     border: none;
     outline: none;
     background-color: rgb(77, 58, 58);
