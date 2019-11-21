@@ -7,7 +7,7 @@ body {
 }
 
 div{
-    font-size: 100%;
+    font-size: 130%;
 }
 
 .hangul {
@@ -23,7 +23,7 @@ div{
     bottom: 5px;
     right: 5px;
     z-index: 99;
-    font-size: 100%;
+    font-size: 150%;
     border: none;
     outline: none;
     background-color: rgb(77, 58, 58);
