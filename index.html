@@ -8,11 +8,10 @@
                 font-family: "NanumBarunGothic";
                 src: url("./NanumBarunGothic.ttf") format("woff");
             }
-            html {
+            html{
+                color: #373d3f;
                 background-color: #fafcf8;
-            }
-            body {
-                font-size: 16px;
+                font-size:120%;
             }
             div#exterior {
                 padding: 10%;
@@ -23,6 +22,12 @@
                 color: #AD2A1A;
                 font-family: NanumBarunGothic;
                 text-decoration: none;
+            }
+            
+            @media(min-width:60em){
+                html{
+                    font-size: 90%
+                }
             }
         </style>
     </head>

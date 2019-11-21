@@ -1,13 +1,14 @@
-html { 
+html{
     color: #373d3f;
     background-color: #fafcf8;
+    font-size:120%;
 }
 body {
     font-size: 16px;
 }
 
 div{
-    font-size: 130%;
+    font-size: 150%;
 }
 
 .hangul {
@@ -23,7 +24,7 @@ div{
     bottom: 5px;
     right: 5px;
     z-index: 99;
-    font-size: 150%;
+    font-size: 200%;
     border: none;
     outline: none;
     background-color: rgb(77, 58, 58);
@@ -31,4 +32,13 @@ div{
     cursor: pointer;
     padding: 10px;
     border-radius: 4px;
+}
+
+@media(min-width:60em){
+    div{
+        font-size: 90%
+    }
+    #reset {
+        font-size: 100%;
+    }
 }
