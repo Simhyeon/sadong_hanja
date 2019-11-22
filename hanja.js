@@ -15,7 +15,7 @@ function init() {
 	}
 }
 
-function debug() {
+function showHangul() {
 	for(var i=0;i< hangulList.length; i++) {
 		hangulList[i].style.display = "unset";
 	}
