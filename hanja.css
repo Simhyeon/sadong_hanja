@@ -1,16 +1,17 @@
 html{
     color: #373d3f;
     background-color: #fafcf8;
-    font-size:120%;
+    width: 100vw;
 }
+
+@font-face {
+    font-family: "NanumBarunGothic";
+    src: url("./NanumBarunGothic.ttf") format("woff");
+}
+
 body {
-    font-size: 16px;
+    font-family: NanumBarunGothic;
 }
-
-div{
-    font-size: 150%;
-}
-
 .hangul {
     display: none;
     color: #1496bb;
@@ -24,7 +25,7 @@ div{
     bottom: 5px;
     right: 5px;
     z-index: 99;
-    font-size: 200%;
+    font-size: 100%;
     border: none;
     outline: none;
     background-color: rgb(77, 58, 58);
@@ -34,11 +35,30 @@ div{
     border-radius: 4px;
 }
 
-@media(min-width:60em){
-    div{
-        font-size: 90%
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+    body {
+        font-size: 2rem;
     }
-    #reset {
-        font-size: 100%;
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+    body {
+        font-size: 1.6rem;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+    body {
+        font-size: 1.3rem;
     }
 }
